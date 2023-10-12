@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="partecss.css">
+    <title>Document</title>
+</head>
+<body>
+    <article>
+        <main id="cabecario"> 
+                    <div id="titulo">
+                            <h1>Hospital Santa fé</h1>
+                            </div>
+                            <div id="sub-titulo">
+                            <h2>Cadastro de vacinas </h2>
+                    </div>
+        </main>
+
+        <main id="meio">
+
+            <div id="foto"><img src="5165bbc3564b4296c70371b75c9774b0-PhotoRoom.png-PhotoRoom.png" alt="img de usuario"></div>
+
+
+            
+            <form id="blococadastro">
+            
+               
+                  
+                    
+                            <div class="bloco" >
+                                <label for="">Nome:</label>
+                                <div class="blocoipt">
+                                    <input type="text"  id="nome" required>
+                                </div>
+                            </div>
+                    
+
+                    
+                        
+                                <div class="bloco">
+                                    <label for="">Cpf:</label>
+                                    <div class="blocoipt">
+                                        <input type="number" id="cpf" required>
+                                    </div>
+                                </div>
+                        
+
+                    
+                        
+                                <div class="bloco">
+                                    <label for="">Dt de Nascimento:</label>
+                                    <div class="blocoipt">
+                                        <input type="date"  id="dt_aniversario" required>
+                                    </div>
+                                </div>
+                        
+
+            
+                        
+                                <div class="bloco">
+                                    <label for="">Nome da Vacina:</label>
+                                    <div class="blocoipt">
+                                        <input type="text"  id="nm_vacina" required >
+                                    </div>
+                                </div>
+
+    
+                            
+                            <div class="bloco">
+                                <label for="">Hr da Vacinação:</label>
+                                <div class="blocoipt">
+                                    <input type="time"  id="hr_vacina" >
+                                </div>
+                            </div>
+
+                    
+                
+                    
+                        
+
+                        <div id="bottom"><input type="submit" id="enviar" onclick="cadastrar(),Mostracadastro()" ></input></div>
+
+            </form>
+                 
+
+             <div id="Sbtitulo-cadastros">
+                <h2>Cadastros</h2>
+             </div>
+
+             <div id="Mostraresultado" > 
+            </div>
+
+            <script src="partejs.js">
+            </script>
+
+            
+        </main>
+    </article>
+</body>
+</html>
+
